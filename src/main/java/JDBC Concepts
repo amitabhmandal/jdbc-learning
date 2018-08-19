@@ -1,0 +1,34 @@
+Two Objects (Java Applications and Database) [Source and destination]
+
+PART - 1 
+Translator [So that Java Applications can communicate Database]
+
+To convert Java calls into Database calls and Database calls into Java calls. 
+We require Driver software
+
+PART - 2
+To reach Java Applications and Database a connection is established[]
+That is called the Connection. [network socket is required]
+
+PART - 3 
+To carry data from A and B vehicle is required. Hence we need to put the data into[]
+
+To send our SQL queries to database and bring back results from database to Java applications
+we must use Statement Object
+
+PART - 4
+In B someone will put the elements into the vehicle[]
+
+The database engine will execute our SQL queries and place it inside an object called
+ResultSet.
+
+This ResultSet object will be placed inside the statement object and reach the Java application
+
+
+
+PART - 5
+AFter the elements have been added into B then it will be send back to A through the vehicle
+[]
+
+From the statement object the Java application can access the Result Set.
+
