@@ -1,0 +1,29 @@
+Life Cycle of SQL Execution
+
+Statement Object
+connection.createStatement();
+
+By using Statement object we need to execute Query which are of 3 types
+1. executeQuery  : Select operations
+2. executeUpdate : Non Select operations(insert / update / delete)
+3. execute       : Both select and non select operations
+
+Database Engine will perform two operations
+1. Compilation (Checking syntax)
+2. Execution 
+Once execution done then result will be send back in resultSet by using statement object
+
+Compilation involes = Tokenization(Scanning) > Parsing(Query Tree) > Query Optimization(create optimized query) >
+
+
+Types of Statement:
+1. Simple Statement   : 
+Problem with statement execution - Everytime query is executed then it will always compile
+and then executed.
+Hence compilation process is redundant.
+
+
+2. Prepared Statement : 
+3. Callable Statement : 
+
+

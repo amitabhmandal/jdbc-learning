@@ -32,3 +32,18 @@ AFter the elements have been added into B then it will be send back to A through
 
 From the statement object the Java application can access the Result Set.
 
+
+Summary:
+1. Driver: Performs Translation of Java Calls to Database calls.
+2. Connection: Establish connection between Java and Database
+3. Statement: To carry SQL from Java application to database
+4. ResultSet : To store the results 
+
+
+Steps for JDBC Application
+1. Load and register JDBC driver
+2. Establish Connection between Java Application and Database
+3. Get statement from Connection / Create Statement object
+4. Send and execute SQL
+5. Process Result from ResultSet
+6. Close Connection
